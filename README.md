@@ -1,3 +1,3 @@
-# npm-packages-exercise-ts
+# typescript-starter-mi
 
-a ts library
+a typescript starter
