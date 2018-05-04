@@ -6,7 +6,6 @@ export function diff<T>(...arrs: T[][]): T[] {
   let idx: number = 0
   while (++idx < len) {
     arr = diffArray(arr, arguments[idx])
-    console.log('arr', arr)
   }
   return arr
 }
@@ -35,5 +34,3 @@ function diffArray<T>(one: T[], two: T[]): T[] {
   }
   return arr
 }
-
-console.log(diff([1,2,3], [2]))
